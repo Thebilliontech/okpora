@@ -16,3 +16,6 @@ test-results/
 playwright-report/
 .DS_Store
 .local-db/
+
+
+[Convert]::ToBase64String([System.IO.File]::ReadAllBytes("C:\Users\HP\okpora\prod-ca-2021.crt"))
