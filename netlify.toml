@@ -4,6 +4,7 @@
   functions = "netlify/functions"
 [build.environment]
   NODE_VERSION = "22"
+  SECRETS_SCAN_OMIT_KEYS = "PAYMENT_PROVIDER,STORAGE_BUCKET,VITE_STORE_NAME"
 [functions]
   node_bundler = "esbuild"
   external_node_modules = ["pg", "stripe"]
