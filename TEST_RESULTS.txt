@@ -1,0 +1,46 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> okpora@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ schema migration is idempotent (1211.632539ms)
+✔ scrypt password hashes are salted and verified (276.531095ms)
+✔ public product search includes SKU and categories (16.644759ms)
+✔ anonymous customers cannot access admin API (3.14285ms)
+✔ ordinary customers cannot access admin API (4.158808ms)
+✔ cross-origin mutations fail closed (0.646593ms)
+✔ missing CSRF token blocks signed-in mutations (3.555901ms)
+✔ invalid cart quantities are rejected (6.429556ms)
+✔ account cart persists using real database (18.079468ms)
+✔ quote ignores client-submitted prices (11.600688ms)
+✔ unsupported delivery address cannot check out (8.530748ms)
+✔ duplicate cart variant entries are rejected (3.487208ms)
+✔ checkout is idempotent and reserves stock without reducing physical inventory (42.911968ms)
+✔ concurrent checkout attempts cannot oversell stock (14.084315ms)
+✔ wrong currency, amount, reference, provider and metadata are rejected (0.349065ms)
+✔ verified payment reduces inventory exactly once and queues real notifications (27.230118ms)
+✔ customers cannot read another customer’s order (15.762782ms)
+✔ coupons apply only to eligible subtotal and enforce limits (24.390375ms)
+✔ invalid webhook signature is rejected (0.674695ms)
+✔ Paystack validates the exact raw payload (0.248234ms)
+✔ Flutterwave HMAC and explicitly selected legacy modes are verified (0.812222ms)
+✔ late payment without stock is recorded but cannot trigger fulfilment (20.271897ms)
+✔ fulfilment cannot be advanced for an unpaid order (9.94725ms)
+✔ only verified delivered purchases can be reviewed (17.191322ms)
+✔ spreadsheet exports neutralize formula injection (0.466421ms)
+✔ checkout rejects a stale reviewed total (5.825186ms)
+✔ login issues HttpOnly session and authoritative role (38.657035ms)
+✔ admin lists, searches, stats and settings query real records (49.915544ms)
+✔ admin can create and edit actual catalog and content records (38.433409ms)
+✔ newsletter and contact submissions persist without fake success (5.401558ms)
+✔ wishlist add and removal persist per account (16.589616ms)
+✔ password reset tokens are one-use and revoke existing sessions (92.723986ms)
+✔ refund verification rejects another order or a partial amount (0.505441ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2455.049683

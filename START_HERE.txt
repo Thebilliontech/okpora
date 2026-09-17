@@ -1,0 +1,16 @@
+OKPORA PROJECT PACKAGE
+
+1. Extract this ZIP and open the okpora folder.
+2. Read PRIVATE_CONFIG/README.md.
+   THIS IS WHERE YOU CONFIGURE YOUR PRIVATE CONNECTIONS.
+3. Follow PRIVATE_CONFIG/NETLIFY_SETUP.md.
+4. Put secrets in Netlify Environment Variables and redeploy.
+5. Connect the database, verify your account and follow ADMIN_SETUP.md.
+6. Add real products, stock, delivery rules and policies.
+7. Complete CONFIGURATION_CHECKLIST.md before launch.
+
+Use Netlify Git import or Netlify CLI for the COMPLETE store.
+Dragging dist/ onto Netlify deploys only the frontend, not functions.
+
+No live credentials or production database are included.
+See DEPLOYMENT_STATUS.md for tests and remaining verification.
